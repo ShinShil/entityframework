@@ -1,0 +1,1 @@
+ALTER TABLE Videos ADD GenreId tinyint NULL

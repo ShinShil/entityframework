@@ -1,0 +1,1 @@
+DBCC CHECKIDENT ( Genres, RESEED, 7 )
