@@ -7,7 +7,7 @@ namespace Queries
     {
         static void Main(string[] args)
         {
-            IApproach approach = new DefferedExecution();
+            IApproach approach = new Queryable();
             approach.Main();
         }
     }
