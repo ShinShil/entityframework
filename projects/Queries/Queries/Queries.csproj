@@ -48,10 +48,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IApproach.cs" />
     <Compile Include="Author.cs" />
     <Compile Include="Course.cs" />
     <Compile Include="Cover.cs" />
     <Compile Include="EntityConfigurations\CourseConfiguration.cs" />
+    <Compile Include="LinqApproach.cs" />
+    <Compile Include="MethodExtensionsApproach.cs" />
     <Compile Include="Migrations\201510010029257_InitialMigration.cs" />
     <Compile Include="Migrations\201510010029257_InitialMigration.Designer.cs">
       <DependentUpon>201510010029257_InitialMigration.cs</DependentUpon>
